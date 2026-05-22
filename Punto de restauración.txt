@@ -1,0 +1,47 @@
+
+==================================================================
+Veeam Agent for Windows
+Restore Report
+
+Job name:		Backup-Documentos-Empresa
+Computer name:		WINDOWS-BACKUP
+Operation:		File Level Restore
+Status:			Success
+
+
+Session Details
+
+Start time:		4/18/2026 3:00:00 AM
+End time:		4/18/2026 3:00:03 AM
+Duration:		00:00:03
+
+
+Restore Details
+
+Restore point used:	4/18/2026 3:00:52 AM
+Restore type:		Restore to original location
+Overwrite:		Yes
+
+
+Restored Files
+
+C:\Users\Nikita\Documentos\cliente_001.txt		512 B		Restored
+
+
+Log
+
+4/18/2026 3:00:00 AM	Restore job started.
+4/18/2026 3:00:00 AM	Restore point: 4/12/2026 3:00:52 AM
+4/18/2026 3:00:01 AM	Mounting backup file: Backup-Documentos-D2026-04-12T030005.vbk
+4/18/2026 3:00:01 AM	Backup file mounted successfully.
+4/18/2026 3:00:02 AM	Restoring: cliente_001.txt (512 B) to original location.
+4/18/2026 3:00:02 AM	File restored successfully.
+4/18/2026 3:00:03 AM	Unmounting backup file.
+4/18/2026 3:00:03 AM	Restore job finished.
+4/18/2026 3:00:03 AM	Restore completed successfully. 1 file restored (512 B).
+
+
+------------------------------------------------------------------
+Veeam Agent for Windows FREE 6.2.0.334
+(c) 2026 Veeam Software Group GmbH. All rights reserved.
+------------------------------------------------------------------

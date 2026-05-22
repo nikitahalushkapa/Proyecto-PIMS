@@ -1,0 +1,13 @@
+============================================
+[2026-03-25 02:00:01] INICIO DEL BACKUP
+  Origen:  /home/nikita/empresa
+  Destino: /home/nikita/backups/empresa
+  Usuario: nikita
+sending incremental file list
+documentos/cliente_003.txt
+datos/empresa_db.sql
+
+sent 6,204 bytes  received 82 bytes  6,286.00 bytes/sec
+total size is 42,140  speedup is 8.26
+[2026-03-25 02:00:02] RESULTADO: EXITO | Archivos: 8 | Tamano: 42K
+============================================

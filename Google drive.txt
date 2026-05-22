@@ -1,0 +1,64 @@
+ Session Details
+
+Start time:		4/18/2026 3:05:00 AM
+End time:		4/18/2026 3:05:06 AM
+Duration:		00:00:06
+
+Files checked:		0
+Files transferred:	2
+Data transferred:	956.0 KB
+Average speed:		156.0 KB/s
+
+
+Transferred Files
+
+C:\Backups\Veeam\Backup-Documentos-D2026-04-12T030005.vbk	892.0 KB	Copied (new)
+C:\Backups\Veeam\Backup-Documentos-D2026-04-13T030003.vib	 64.0 KB	Copied (new)
+
+
+Files available in OneDrive after sync
+
+onedrive-nikita:backups-windows/Backup-Documentos-D2026-04-12T030005.vbk	892.0 KB
+onedrive-nikita:backups-windows/Backup-Documentos-D2026-04-13T030003.vib	 64.0 KB
+
+
+Total size in OneDrive:		956.0 KB
+Total files in OneDrive:	2
+
+
+Log
+
+4/18/2026 3:05:00 AM	Cloud sync started.
+4/18/2026 3:05:00 AM	Remote: onedrive-nikita:backups-windows
+4/18/2026 3:05:00 AM	Source: C:\Backups\Veeam\
+4/18/2026 3:05:00 AM	Authenticating with OneDrive...
+4/18/2026 3:05:01 AM	Authentication successful.
+4/18/2026 3:05:01 AM	Checking remote for existing files...
+4/18/2026 3:05:01 AM	Remote is empty. Uploading all files.
+4/18/2026 3:05:01 AM	Uploading: Backup-Documentos-D2026-04-12T030005.vbk (892.0 KB)
+4/18/2026 3:05:03 AM	Uploaded: Backup-Documentos-D2026-04-12T030005.vbk - OK
+4/18/2026 3:05:03 AM	Uploading: Backup-Documentos-D2026-04-13T030003.vib (64.0 KB)
+4/18/2026 3:05:04 AM	Uploaded: Backup-Documentos-D2026-04-13T030003.vib - OK
+4/18/2026 3:05:05 AM	Verifying uploaded files...
+4/18/2026 3:05:06 AM	All files verified successfully.
+4/18/2026 3:05:06 AM	Cloud sync finished.
+4/18/2026 3:05:06 AM	Sync completed successfully. 2 files transferred (956.0 KB).
+4/18/2026 3:05:06 AM	Strategy 3-2-1 completed on Windows environment.
+
+
+Summary
+
+  Local backup (Veeam):    C:\Backups\Veeam\                  2 files   956 KB
+  Cloud backup (OneDrive): onedrive-nikita:backups-windows\   2 files   956 KB
+
+  Strategy 3-2-1 status:   COMPLETED
+    Copy 1 - Original:     C:\Users\Nikita\Documentos\
+    Copy 2 - Local backup: C:\Backups\Veeam\
+    Copy 3 - Cloud:        OneDrive - onedrive-nikita:backups-windows\
+
+
+------------------------------------------------------------------
+Veeam Agent for Windows FREE 6.2.0.334
+rclone 1.66.0
+(c) 2026 Veeam Software Group GmbH. All rights reserved.
+------------------------------------------------------------------  

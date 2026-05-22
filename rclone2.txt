@@ -1,0 +1,14 @@
+============================================
+[2026-03-25 02:30:01] INICIO SYNC NUBE
+  Origen local:  /home/nikita/backups
+  Destino nube:  gdrive-nikita:backups-servidor
+2026/04/25 02:30:01 INFO  : empresa/documentos/cliente_003.txt: Copied (new)
+2026/04/25 02:30:02 INFO  : empresa/datos/empresa_db.sql: Copied (updated)
+
+Transferred:    6.204 KiB / 6.204 KiB, 100%, 12.8 KiB/s
+Checks:                 6 / 6, 100%
+Transferred:            2 / 2, 100%
+Elapsed time:        2.2s
+
+[2026-03-25 02:30:02] SYNC COMPLETADO CON EXITO
+============================================

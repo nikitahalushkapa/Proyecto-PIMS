@@ -1,0 +1,58 @@
+==================================================================
+Veeam Agent for Windows
+Job Report — Session 2
+
+Job name:		Backup-Documentos-Empresa
+Computer name:		WINDOWS-BACKUP
+Status:			Success
+
+
+Session Details
+
+Start time:		4/13/2026 3:00:03 AM
+End time:		4/13/2026 3:00:35 AM
+Duration:		00:00:32
+
+Backed up:		87.0 KB
+Transferred:		64.1 KB
+Compression ratio:	1.4x
+Bottleneck:		Source
+
+
+Backup Details
+
+Backup type:		Incremental
+Restore point:		4/13/2026 3:00:21 AM
+Restore points:		2
+Repository:		Local (C:\Backups\Veeam\)
+
+
+Protected Files
+
+C:\Users\Nikita\Documentos\clientes.txt		1.4 KB		Changed
+
+
+Log
+
+4/13/2026 3:00:03 AM	Job started.
+4/13/2026 3:00:03 AM	Backup type: Incremental backup.
+4/13/2026 3:00:04 AM	Processing C:\Users\Nikita\Documentos
+4/13/2026 3:00:04 AM	Using VSS snapshot for consistent backup.
+4/13/2026 3:00:05 AM	VSS snapshot created successfully.
+4/13/2026 3:00:05 AM	Reading source data...
+4/13/2026 3:00:06 AM	Scanning for changes since last backup (4/12/2026 3:00:52 AM)
+4/13/2026 3:00:07 AM	Detected 1 new/modified files.
+4/13/2026 3:00:08 AM	Processing: clientes.txt (1.4 KB)
+4/13/2026 3:00:16 AM	Releasing VSS snapshot.
+4/13/2026 3:00:17 AM	VSS snapshot released successfully.
+4/13/2026 3:00:18 AM	Saving backup metadata...
+4/13/2026 3:00:20 AM	Backup file: C:\Backups\Veeam\Backup-Documentos-D2026-04-13T030003.vib
+4/13/2026 3:00:21 AM	Backup job finished.
+4/13/2026 3:00:21 AM	Job completed successfully.
+
+
+------------------------------------------------------------------
+Veeam Agent for Windows FREE 6.2.0.334
+(c) 2026 Veeam Software Group GmbH. All rights reserved.
+------------------------------------------------------------------
+

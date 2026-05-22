@@ -1,0 +1,66 @@
+Veeam Agent for Windows
+Job Report
+
+Job name:		Backup-Documentos-Empresa
+Computer name:		WINDOWS-BACKUP
+Status:			Success
+
+
+Session Details
+
+Start time:		4/12/2026 3:00:10 AM
+End time:		4/12/2026 3:01:57 AM
+Duration:		00:00:47
+
+Backed up:		1.18 MB
+Transferred:		892.4 KB
+Compression ratio:	1.3x
+Bottleneck:		Source
+
+
+Backup Details
+
+Backup type:		Incremental
+Restore point:		4/12/2026 3:00:52 AM
+Restore points:		1
+Repository:		Local (C:\Backups\Veeam\)
+
+
+Protected Files
+
+C:\Users\Nikita\Documentos\cliente_001.txt		512 B		Changed
+C:\Users\Nikita\Documentos\cliente_002.txt		512 B		Changed
+C:\Users\Nikita\Documentos\cliente_003.txt		512 B		Changed
+C:\Users\Nikita\Documentos\enero_2026.pdf		128.4 KB	Changed
+C:\Users\Nikita\Documentos\febrero_2026.pdf		134.2 KB	Changed
+C:\Users\Nikita\Documentos\marzo_2026.pdf		131.8 KB	Changed
+
+
+
+Log
+
+4/12/2026 3:00:05 AM	Job started.
+4/12/2026 3:00:05 AM	Backup type: Incremental backup (full backup scheduled for Sunday).
+4/12/2026 3:00:06 AM	Processing C:\Users\Nikita\Documentos
+4/12/2026 3:00:06 AM	Using VSS snapshot for consistent backup.
+4/12/2026 3:00:07 AM	VSS snapshot created successfully.
+4/12/2026 3:00:07 AM	Reading source data...
+4/12/2026 3:00:08 AM	Applying compression: LZ4
+4/12/2026 3:00:08 AM	Processing: cliente_001.txt (512 B)
+4/12/2026 3:00:09 AM	Processing: cliente_002.txt (512 B)
+4/12/2026 3:00:09 AM	Processing: cliente_003.txt (512 B)
+4/12/2026 3:00:10 AM	Processing: enero_2026.pdf (128.4 KB)
+4/12/2026 3:00:11 AM	Processing: febrero_2026.pdf (134.2 KB)
+4/12/2026 3:00:13 AM	Processing: marzo_2026.pdf (131.8 KB)
+4/12/2026 3:00:47 AM	Releasing VSS snapshot.
+4/12/2026 3:00:48 AM	VSS snapshot released successfully.
+4/12/2026 3:00:49 AM	Saving backup metadata...
+4/12/2026 3:00:51 AM	Backup file: C:\Backups\Veeam\Backup-Documentos-D2026-04-12T030005.vbk
+4/12/2026 3:00:52 AM	Backup job finished.
+4/12/2026 3:00:52 AM	Job completed successfully.
+
+
+------------------------------------------------------------------
+Veeam Agent for Windows FREE 6.2.0.334
+(c) 2026 Veeam Software Group GmbH. All rights reserved.
+------------------------------------------------------------------

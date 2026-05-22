@@ -1,0 +1,10 @@
+CODIGO Y RESULTADO
+
+nikita@ubuntu-server-backup:~$ sudo ufw status verbose       INTRO
+Status: active
+Default: deny (incoming), allow (outgoing)
+
+To                    Action      From
+22/tcp                ALLOW IN    Anywhere
+22/tcp (v6)           ALLOW IN    Anywhere (v6)
+ 
